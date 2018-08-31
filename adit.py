@@ -13,13 +13,13 @@ from googletrans import Translator
 import youtube_dl
 
 #aditmadzs = LineClient()
-aditmadzs = LineClient(authToken='ISI TOKEN MU CINTA')
+aditmadzs = LineClient(authToken='Evee7nmpiUAJIysjZ1jd.NWNpYXFqn/ktA3uB2DqoRq.BJttGBJSQbJIcfAQ6ZMLASiZGMCjV0bPUSAB91yy6gE=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='ISI TOKEN MU CINTA')
+ki = LineClient(authToken='EwiU9rXtEl7Gsa3t9iWd.mKZbV5HoQB+/lk9EZno5+q.3hDd8TKoabsyuLHs44WmDQv7R33Y82aTM8B/UXGr210=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -337,7 +337,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔══════════════════════════════╗" + "\n" + \
-                  "      ◄]·✪Aditmadzs✪·[►" + "\n" + \
+                  "      ◄]·✪sepriche✪·[►" + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
                   "     ◄]·✪·Menu·✪·[►" + "\n" + \
@@ -451,7 +451,7 @@ def help():
                   "      ◄]·✪Aditmadzs✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                  "◄]·✪line.me/ti/p/~sepriche✪·[►" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage
     
@@ -461,7 +461,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔══════════════════════════════╗" + "\n" + \
-                  "     🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                  "     ⭐️⭐️⭐️SEPRICHE⭐️⭐️⭐️" + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
                   "     ◄]·✪·BOT·✪·[►" + "\n" + \
@@ -518,17 +518,17 @@ def helpbot():
                   "╠❂➣ " + key + "Clearban\n" + \
                   "╠❂➣ " + key + "Refresh\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ◄]·✪Aditmadzs✪·[►" + "\n" + \
+                  "      ◄]·✪SEPRICHE✪·[►" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                  "◄]·✪line.me/ti/p/~sepriche✪·[►" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage1
     
 def infomeme():
     helpMessage2 = """
 ╔══════════════════════════════╗
-       ◄]·✪Aditmadzs✪·[►
+       ◄]·✪SEPRICHE✪·[►
 ╚══════════════════════════════╝
 ╔══════════════════════════════╗
     ◄]·✪·List Meme·✪·[►
@@ -562,7 +562,7 @@ def infomeme():
 ╠❂➣ contoh:
 ╠❂➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════════════════╗
-      ◄]·✪Aditmadzs✪·[►
+      ◄]·✪SEPRICHE✪·[►
 ╠══════════════════════════════╝
 ╠══════════════════════════════╗
 ◄]·✪line.me/ti/p/~adit_cmct✪·[►
@@ -572,7 +572,7 @@ def infomeme():
     
 def translate():
     helpTranslate =    "╔══════════════════════════════╗" + "\n" + \
-                       "     🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                       "     ⭐️⭐️⭐️SEPRICHE⭐️⭐️⭐️" + "\n" + \
                        "╚══════════════════════════════╝" + "\n" + \
                        "╔══════════════════════════════╗" + "\n" + \
                        "     ◄]·✪·Translate·✪·[►" + "\n" + \
@@ -689,10 +689,10 @@ def translate():
                        "╠❂➣ fil : Filipino" + "\n" + \
                        "╠❂➣ he : Hebrew" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "  Contoh: tr-en Aditmadzs" + "\n" + \
+                       "  Contoh: tr-en Sepriche" + "\n" + \
                        "╠══════════════════════════════╝" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "◄]·✪line.me/ti/p/~adit_cmct✪·[►" + "\n" + \
+                       "◄]·✪line.me/ti/p/~sepriche✪·[►" + "\n" + \
                        "╚══════════════════════════════╝"
     return helpTranslate
 
@@ -1153,7 +1153,7 @@ def bot(op):
                    for mention in mentionees:
                         if mention ['M'] in Bots:
                            aditmadzs.sendMessage(msg.to, wait["Respontag"])
-                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"21715710","STKPKGID":"9662","STKVER":"2"}, contentType=7)
+                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"12812806","STKPKGID":"1317504","STKVER":"6"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:
@@ -1166,7 +1166,7 @@ def bot(op):
                            plihth = random.choice(idth)
                            jenis = ["5","6","7","8"]
                            plihjenis = random.choice(jenis)
-                           aditmadzs.sendMessage(msg.to, "Yang suka ngetag minta di gift yaa!?\nCek di chat, udah aku gift tuh...")
+                           aditmadzs.sendMessage(msg.to, "gift buat jomes yang suka tag\n😂😂😂...")
                            aditmadzs.sendMessage(msg._from, None, contentMetadata={"PRDID":plihth,"PRDTYPE":"THEME","MSGTPL":plihjenis}, contentType=9)
                            break                       
                if 'MENTION' in msg.contentMetadata.keys() != None:
@@ -1912,7 +1912,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +aditmadzs.getContact(m_id).displayName + "\n"
-                                aditmadzs.sendMessage(msg.to,"⏩ Admin Aditmadzs BOT\n\n⏩Creator BOT:\n"+ma+"\n⏩Admin:\n"+mb+"\n⏩Staff:\n"+mc+"\n⏩Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
+                                aditmadzs.sendMessage(msg.to,"⏩ Admin Sepri BOT\n\n⏩Creator BOT:\n"+ma+"\n⏩Admin:\n"+mb+"\n⏩Staff:\n"+mc+"\n⏩Total「%s」" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "listprotect":
                           if wait["selfbot"] == True:
@@ -1970,7 +1970,7 @@ def bot(op):
                                     pass
                                 
     
-                        elif cmd == "join dit":
+                        elif cmd == "join ":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = aditmadzs.getGroup(msg.to)
@@ -2036,7 +2036,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               aditmadzs.sendMessage(msg.to, "Progres speed...")
+                               aditmadzs.sendMessage(msg.to, "Sepribot speed...")
                                elapsed_time = time.time() - start
                                aditmadzs.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
 
